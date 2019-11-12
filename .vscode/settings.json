@@ -1,0 +1,9 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/40889825-7b4b-40d2-a578-41de4c5deca4/resourceGroups/PTGWebApplication/providers/Microsoft.Web/sites/PtgEmployeeManagement",
+    "appService.deploySubpath": "dist\\EmployeeDemo",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}
