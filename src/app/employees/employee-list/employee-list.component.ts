@@ -14,7 +14,17 @@ export class EmployeeListComponent implements OnInit {
     private toastr: ToastrService) { }
 
   ngOnInit() {
-    this.service.refreshList();
+    this.service.exampleRequest()
+    /*.subscribe(
+      (response) => {
+        console.log("its an success");
+        console.log(response);
+      },
+      (error) => {
+        console.log("its an error");
+        console.log(error);
+      }
+    );*/
   }
 
   populateForm(emp: Employee) {

@@ -16,7 +16,7 @@ exports.config = {
     browserName: 'chrome'
   },
   directConnect: true,
-  baseUrl: 'https://ptgdemohost.azurewebsites.net/',
+  baseUrl: 'https://4200/',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
